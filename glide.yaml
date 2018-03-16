@@ -1,0 +1,9 @@
+package: github.com/DBosley/go-react-chat
+import:
+- package: github.com/codegangsta/cli
+  version: ^1.20.0
+- package: github.com/olebedev/config
+- package: github.com/labstack/echo
+  version: ^3.3.3
+  subpackages:
+  - middleware
