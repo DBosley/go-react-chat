@@ -29,5 +29,5 @@ func Run(args []string) {
 
 // RunServer is the server entry point
 func RunServer(c *cli.Context) {
-	server.Start()
+	server.Start(server.LoadConfig())
 }
